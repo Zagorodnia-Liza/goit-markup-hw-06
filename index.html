@@ -429,30 +429,33 @@
 
             <form class="form">
             <p>Оставьте свои данные, мы вам перезвоним</p>
-
-            <label for="name">Имя</label>
-                <input type="text" name="name" id="name"/>
+<div class="form-field">
+            <label for="name" class="form-label">Имя</label>
+            <input  class="form-input" type="text" name="name" id="name"/>
                 <svg class="" width="18" height="18">
-                    <use href="./imges/symbol-modal.svg#icon-person-black-18dp-1-1"></use>
+                <use href="./imges/symbol-modal.svg#icon-person-black-18dp-1-1"></use>
                 </svg>
-            
-<br>
+            </div>
+<div class="form-field">
             <label for="tel">Телефон</label>
             <input type="tel" name="tel" id="tel"/>
-          
-<br>
+            </div>
+<div class="form-field">
             <label for="mail">Почта</label>
-                <input type="email" name="mail" id="mail"/>
-<br>
-                <input type="checkbox" name="agree" value="agree" id="agree">
-                <label for="agree">Соглашаюсь с рассылкой и принимаю Условия договора</label>
-<br>
-                    <label>
-                        Комментарий
-                        <textarea name="feedback" rows="" placeholder="Введите текст"></textarea>
-                    </label>
-<br>
-                <button type="submit" class="hero-btn">Отправить</button>
+            <input type="email" name="mail" id="mail"/>
+            </div>
+<div class="form-field">
+            <input type="checkbox" name="agree" value="agree" id="agree">
+            <label for="agree">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+            </div>
+<div class="form-field">
+            <label>Комментарий
+            <textarea name="feedback" rows="" placeholder="Введите текст"></textarea>
+            </label>
+            </div>
+<div class="form-field">
+            <button type="submit" class="hero-btn">Отправить</button>
+            </div>
                 </form>
            
                 
