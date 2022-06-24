@@ -771,14 +771,22 @@ border-radius: 50%;
 }
 /* ------form-----*/
 .form {
-  width: 448px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 40px 40px;
+width:100%;
+height: 581px;
+outline: 1px solid #2196F3;
+margin-left: 0;
+margin-right: 0;
+padding: 40px;
+}
+.form-field {
+    outline: 1px solid tomato;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 textarea {
 resize: none;
- width:448px ;
+ width:100%;
  height:138px ;
 }
 .close {
